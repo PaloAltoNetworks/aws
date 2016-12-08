@@ -17,6 +17,7 @@
   "Mappings": {
     "PANFWRegionMap" : {
         "us-east-1"        : { "AMI": "ami-29a8a243"},
+        "us-east-2"        : { "AMI": "ami-c295cfa7"},
         "us-west-2"        : { "AMI": "ami-e4be4b84"},
         "us-west-1"        : { "AMI": "ami-12d0ad72"},
         "eu-central-1"     : { "AMI": "ami-8be001e4"},
