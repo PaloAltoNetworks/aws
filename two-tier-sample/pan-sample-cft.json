@@ -482,6 +482,7 @@
             "echo \"export new_routers='",{"Fn::GetAtt" : [ "FWPrivate13NetworkInterface", "PrimaryPrivateIpAddress" ]},"'\" >> /etc/dhcp/dhclient-enter-hooks.d/aws-default-route\n",
             "ifdown eth0\n",
             "ifup eth0\n",
+            "route add -net 169.254.0.0 netmask 255.255.0.0 dev eth0\n",
             "while true\n",
             " do\n",
             "  resp=$(curl -s -S -g --insecure \"https://",{"Ref": "ManagementElasticIP"},"/api/?type=op&cmd=<show><chassis-ready></chassis-ready></show>&key=LUFRPT10VGJKTEV6a0R4L1JXd0ZmbmNvdUEwa25wMlU9d0N5d292d2FXNXBBeEFBUW5pV2xoZz09\")\n",
@@ -548,7 +549,7 @@
             "echo \"export new_routers='",{"Fn::GetAtt" : [ "FWPrivate12NetworkInterface", "PrimaryPrivateIpAddress" ]},"'\" >> /etc/dhcp/dhclient-enter-hooks.d/aws-default-route\n",
             "ifdown eth0\n",
             "ifup eth0\n",
-
+            "route add -net 169.254.0.0 netmask 255.255.0.0 dev eth0\n",
             "while true\n",
             "  do\n",
             "   resp=$(curl -s -S -g --insecure \"https://",{"Ref": "ManagementElasticIP"},"/api/?type=op&cmd=<show><chassis-ready></chassis-ready></show>&key=LUFRPT10VGJKTEV6a0R4L1JXd0ZmbmNvdUEwa25wMlU9d0N5d292d2FXNXBBeEFBUW5pV2xoZz09\")\n",
