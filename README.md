@@ -1,6 +1,14 @@
-aws/globalprotect-asg/
+# Palo Alto Networks AWS Gallery
 
-# Palo Alto Networks AWS repository
+Gallery (https://gallery.pan.dev/) is a separate forum used to appropriately structure and organize repositories. Easier method of searching Repositories and maintaining each Repository. 
+
+These below Repositories are part of main https://github.com/PaloAltoNetworks/aws in GitHub.
+[aws/globalprotect-asg/](https://github.com/PaloAltoNetworks/aws/tree/master/globalprotect-asg)
+
+[aws/globalprotect-asg/](https://github.com/PaloAltoNetworks/aws/tree/master/two-tier-sample)
+
+
+# Palo Alto Networks AWS GitHUB repository
 
 # Support Policy
 The code and templates in the repo are released under an as-is, best effort, support policy. These scripts should be seen as community supported and Palo Alto Networks will contribute our expertise as and when possible. We do not provide technical support or help in using or troubleshooting the components of the project through our normal support options such as Palo Alto Networks support teams, or ASC (Authorized Support Centers) partners and backline support options. The underlying product used (the VM-Series firewall) by the scripts or templates are still supported, but the support is only for the product functionality and not for help in deploying or using the template or script itself.
