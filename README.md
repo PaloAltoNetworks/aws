@@ -1,3 +1,5 @@
+aws/globalprotect-asg/
+
 # Palo Alto Networks AWS repository
 
 # Support Policy
